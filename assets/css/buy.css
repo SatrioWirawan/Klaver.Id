@@ -1,0 +1,20 @@
+
+img {
+    width: 40%;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: black;
+}
+.row {
+    margin: 2% 10% 5% !important;
+}
+.featurette-divider {
+    margin-bottom: 40px;
+}
+footer {
+    padding: 2px 30px 20px !important;
+}

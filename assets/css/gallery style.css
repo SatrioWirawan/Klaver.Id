@@ -1,0 +1,68 @@
+body {
+    background-color:#f5ebe1;
+}
+/* Navbar */
+.navbar-brand {
+    color: black !important;
+}
+.gal {
+    font-weight: 300 !important;
+}
+.klav {
+    text-decoration: none;
+    color: black;
+}
+.klav:hover {
+    color: black;
+}
+.openbtn {
+    color: black;
+}
+@media screen and (max-width: 500px) {
+  .gal {
+    font-size: 22px;
+  }
+}
+/* Main */
+#left-container {
+    width: 10%;
+}
+.featurette {
+    margin: 5% 10% 5%;
+    padding: 5% 10% 5%;
+}
+.featurette-divider {
+    margin: 5rem 0;
+  }
+  
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+/* SNS */
+.fa-instagram,
+.fa-whatsapp,
+.shopee {
+  color: black;
+}
+.fa-instagram:hover,
+.fa-whatsapp:hover,
+.shopee:hover {
+  color: black;
+}
+/* Footer */
+footer {
+    padding: 15px 30px 10px;
+    font-size: 26px;
+    width: 100%;
+    clear: both;
+    margin: 0px;
+  }
+.copyright {
+    color: black;
+    font-size: 16px;
+}
+.copyright:hover {
+    color: black;
+  }
