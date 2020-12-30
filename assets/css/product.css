@@ -5,7 +5,7 @@
 .product-tile {
     text-align: center; 
     margin: 5% 30% 2%; 
-    width: 100%;"
+    width: 100%;
 }
     img {
     vertical-align: middle;
@@ -67,7 +67,7 @@
     text-align: center;
     background-color:#f5ebe1;
     padding: 2px 16px;
-    color:transparent;
+    color: transparent;
   }
   
   .row:after {
@@ -91,6 +91,28 @@
   .demo:hover {
     opacity: 1;
   }
+
+/* bottom SNS container */
+.sns-img {
+    width: 50px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: black;
+}
+.bottom-row {
+    margin: 2% 30% 5% !important;
+}
+.left {
+    float: right;
+}
+.right {
+    float: left;
+}
+
 /* footer */
 .featurette-divider {
     margin-top: 120px;
