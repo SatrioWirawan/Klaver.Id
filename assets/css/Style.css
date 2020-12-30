@@ -9,7 +9,7 @@ body {
 /* Navbar */
 header {
   padding: 2% 2% 2%;
-  height: 1000px;
+  height: 900px;
   position: relative;
   z-index: 1;
 }
@@ -48,7 +48,7 @@ nav {
   color: white;
   position: absolute;
   top: 20px;
-  right: 45px;
+  right: 30px;
   font-size: 60px;
 }
 @media screen and (max-width: 1200px) {
@@ -178,6 +178,7 @@ nav {
   background-image: url(bg-image.jpg);
   position: absolute;
   width: 100%;
+  min-height: 800px;
   height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -254,7 +255,7 @@ main img {
   padding: 5%;
   position: fixed;
   top: 30%;
-  left: -5%;
+  left: -10%;
   max-width: 30%;
   overflow: hidden;
 }
@@ -285,31 +286,6 @@ main img {
 .fa-whatsapp:hover,
 .shopee:hover {
   color: black;
-}
-@media screen and (max-width: 800px) {
-  #left-container {
-    margin: 5%;
-    padding: 5%;
-    position: absolute;
-    top: 60%;
-    width: 30%;
-    z-index: 3;
-  }
-  .fa-instagram:hover,
-  .fa-whatsapp:hover,
-  .shopee2:hover {
-    color: white;
-  }
-  .fa-instagram,
-  .fa-whatsapp {
-    color: white;
-  }
-  .shopee {
-    visibility: hidden;
-  }
-  .shopee2 {
-    visibility: visible;
-  }
 }
 /* copyright */
 .featurette-divider {
