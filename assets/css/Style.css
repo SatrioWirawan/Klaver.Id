@@ -255,7 +255,7 @@ main img {
   padding: 5%;
   position: fixed;
   top: 30%;
-  left: -10%;
+  left: 0%;
   max-width: 30%;
   overflow: hidden;
 }
@@ -266,7 +266,7 @@ main img {
 .fa-whatsapp {
   font-size: 30px;
   background: transparent;
-  color: black;
+  color:#818181;
   text-decoration: none;
   margin: 0px 4px 0px;
   padding: 8px 0 8px;
@@ -285,7 +285,12 @@ main img {
 .fa-instagram:hover,
 .fa-whatsapp:hover,
 .shopee:hover {
-  color: black;
+  color:#818181;
+}
+@media screen and (max-width: 600px) {
+  #left-container {
+    left: -10%;
+  }
 }
 /* copyright */
 .featurette-divider {
