@@ -3,10 +3,21 @@ html {
 }
 body {
     background-color:#f5ebe1;
+    padding: 2% 2% 2%;
 }
 /* Navbar */
 .navbar-brand {
     color: black !important;
+}
+.back {
+  width: 30%;
+  color: #fff;
+  font-size: 120%;
+  font-weight: 300;
+  line-height: 90px;
+  margin: 0% 5% 0%;
+  position: relative;
+  text-align: left;
 }
 .gal {
     font-weight: 300 !important;
@@ -21,15 +32,18 @@ body {
 .openbtn {
     color: black;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
+  .back {
+    font-size: 80%;
+  }
   .gal {
-    font-size: 22px;
+    font-size: 70%;
   }
 }
 /* Main */
 header {
   height: 20%;
-  margin: 20px;
+  margin: 10px;
 }
 #gal-row {
   padding: 0% 10% 5%;

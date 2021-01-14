@@ -8,10 +8,30 @@ body {
 }
 /* Navbar */
 header {
-  padding: 2% 2% 2%;
   height: 900px;
   position: relative;
   z-index: 1;
+}
+.header-container {
+  padding: 2% 2% 2%;
+  margin: auto;
+}
+.header-tag {
+  margin: auto;
+  color: white;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  top: 180px;
+  line-height: 3;
+  width: 80%;
+  padding: 0% 20% 0%;
+}
+.header-tag h1 {
+  font-size: 24px;
+}
+.header-tag p{
+  font-size: 16px;
 }
 .navbar-brand {
   width: 30%;
@@ -20,9 +40,10 @@ header {
   letter-spacing: 1px;
   font-weight: 700;
   line-height: 90px;
-  margin-bottom: 20px;
+  margin: 2% 8% 2%;
   position: relative;
   top: -10px;
+  text-align: left;
 }
 .nav-logo,
 .nav-logo-overlay {
@@ -55,11 +76,13 @@ nav {
   .nav-logo-overlay {
     width: 30%;
   }
+  .header-tag {
+    padding: 0% 5% 0%;
+  }
 }
 @media screen and (max-width: 400px) {
   .navbar-brand {
     font-size: 30px;
-    top: -20px;
   }
 }
 /* Nav Overlay */
@@ -84,7 +107,7 @@ nav {
   cursor: pointer;
   z-index: 111;
   width: 30%;
-  height: 75px;
+  height: 80px;
 }
 
 .overlay a,
@@ -110,16 +133,16 @@ nav {
 }
 
 #left-container-overlay {
-  margin: 5%;
+  margin: auto;
   padding: 5%;
   position: absolute;
   z-index: 11;
   top: 50%;
-  width: 30%;
+  width: 100%;
+  height: 10px;
 }
-.SNS-overlay a {
-  margin: 40%;
-  width: 20px;
+.SNS-overlay {
+padding: 0% 30% 0%;
 }
 #fa-instagram-overlay,
 #fa-whatsapp-overlay {
@@ -135,7 +158,6 @@ nav {
   padding: 8px 0 8px;
   position: relative;
   top: -20px;
-  left: -6px;
 }
 @media screen and (max-height: 450px) {
   .overlay {
@@ -151,13 +173,11 @@ nav {
   }
 }
 @media screen and (max-width: 800px) {
-  #fa-instagram-overlay,
-  #fa-whatsapp-overlay,
   .shopee-overlay {
-    visibility: hidden;
+    top: -10px;
   }
   .overlay a {
-    font-size: 24px;
+    font-size: 26px;
   }
   .overlay-content {
     width: 100%;
@@ -169,10 +189,8 @@ nav {
   position: relative;
   width: 10%;
   float: left;
-  margin-top: 40px;
+  margin: 0% 8% 0%;
   border-bottom: 1px solid #fff;
-  margin-left: 10%;
-  margin-bottom: 50px;
 }
 .bg {
   background-image: url(bg-image.jpg);
@@ -251,9 +269,10 @@ main img {
 }
 /* SNS */
 #left-container {
-  margin: 5%;
+  margin: 0% 5% 5%;
   padding: 5%;
   position: fixed;
+  z-index: -1;
   top: 30%;
   left: 0%;
   max-width: 30%;
